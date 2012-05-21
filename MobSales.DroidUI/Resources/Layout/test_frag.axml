@@ -3,9 +3,9 @@
     android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-	<!--<Cirrious.MvvmCross.Binding.Android.Views.MvxBindingFragment-->
 	<fragment
-		class="mobsales.droidui.views.fragments.TitlesFragment"
+		class="mobsales.droidui.TitlesFragment"
+		android:id="@+id/titles_fragment"
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
 			  />

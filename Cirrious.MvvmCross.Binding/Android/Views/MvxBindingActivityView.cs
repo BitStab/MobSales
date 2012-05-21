@@ -13,7 +13,6 @@ using System;
 using System.Collections.Generic;
 using Android.OS;
 using Android.Views;
-using Android.Support.V4.App;
 using Cirrious.MvvmCross.Android.Views;
 using Cirrious.MvvmCross.Binding.Android.Binders;
 using Cirrious.MvvmCross.Binding.Android.Interfaces.Views;

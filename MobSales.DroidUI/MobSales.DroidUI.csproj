@@ -54,8 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ErrorDisplayer.cs" />
-    <Compile Include="Views\Fragments\TitlesFragment.cs" />
-    <Compile Include="Views\DashboardView.cs" />
+    <Compile Include="TitlesFragment.cs" />
+    <Compile Include="View\DashboardView.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,12 +75,6 @@
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\test_frag.axml">
       <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\Layout\InserimentoOdV.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\Layout\InserimentoReso.axml">
-      <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>

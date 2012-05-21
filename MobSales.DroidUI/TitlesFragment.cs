@@ -15,9 +15,9 @@ using Cirrious.MvvmCross.Binding.Android.Views;
 using Cirrious.MvvmCross.Android.Views;
 using MobSales.Logic.ViewModels;
 
-namespace MobSales.DroidUI.Views.Fragments
+namespace MobSales.DroidUI
 {
-    public class TitlesFragment : MvxBindingFragment<CustomersViewModel>
+    public class TitlesFragment : Fragment//<CustomersViewModel>
     {
         public override void OnActivityCreated(Bundle savedInstanceState)
         {
@@ -26,7 +26,7 @@ namespace MobSales.DroidUI.Views.Fragments
 
         public override View  OnCreateView(LayoutInflater p0, ViewGroup p1, Bundle p2)
         {
-            View fragmentView = p0.Inflate(Resource.Layout.Dashboard, p1, false);
+            View fragmentView = p0.Inflate(Resource.Layout.SplashScreen, p1, false);
             return fragmentView;
         }
 

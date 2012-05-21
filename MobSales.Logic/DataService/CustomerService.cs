@@ -23,8 +23,7 @@ namespace MobSales.Logic.DataService
             CookieContainer cooks = new CookieContainer();
             SalesService.Instance.CookieContainer = cooks;
             CredentialCache cache = new CredentialCache();
-            cache.Add(new System.Uri(SalesService.Instance.Url), "NTLM", new NetworkCredential("mstecher", "nuSux912", "eos.it"));
-            //cache.Add(new System.Uri(SalesService.Instance.Url), "NTLM", new NetworkCredential("admin", "ta!ov", "TAMBOV"));
+            //credentials
             SalesService.Instance.UseDefaultCredentials = false;
             SalesService.Instance.Credentials = cache;
             SalesService.Instance.PreAuthenticate = true;

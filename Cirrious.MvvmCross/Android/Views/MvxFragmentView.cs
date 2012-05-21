@@ -4,7 +4,7 @@ using Android.Widget;
 using Android.Content;
 using Android.OS;
 using Android.Util;
-using Android.Support.V4.App;
+using Android.App;
 using Cirrious.MvvmCross.Android.ExtensionMethods;
 using Cirrious.MvvmCross.Android.Interfaces;
 using Cirrious.MvvmCross.Interfaces.ViewModels;
@@ -120,7 +120,7 @@ namespace Cirrious.MvvmCross.Android.Views
             base.StartActivityForResult(intent, requestCode);
         }
 
-        public override void OnActivityResult(int requestCode, int resultCode, Intent data)
+        public override void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
             //Result code = (Result)resultCode;
             var handler = MvxIntentResultReceived;
