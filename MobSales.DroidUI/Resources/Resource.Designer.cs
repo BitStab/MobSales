@@ -49,11 +49,11 @@ namespace MobSales.DroidUI
 			// aapt resource value: 0x7f040009
 			public const int Address = 2130968585;
 			
-			// aapt resource value: 0x7f04000c
-			public const int ErrorText1 = 2130968588;
+			// aapt resource value: 0x7f04000b
+			public const int ErrorText1 = 2130968587;
 			
-			// aapt resource value: 0x7f04000d
-			public const int ErrorText2 = 2130968589;
+			// aapt resource value: 0x7f04000c
+			public const int ErrorText2 = 2130968588;
 			
 			// aapt resource value: 0x7f040001
 			public const int MvxBindableListItemTagUnique = 2130968577;
@@ -80,10 +80,7 @@ namespace MobSales.DroidUI
 			public const int dialog_view = 2130968578;
 			
 			// aapt resource value: 0x7f04000a
-			public const int titles_fragment = 2130968586;
-			
-			// aapt resource value: 0x7f04000b
-			public const int toast_layout_error_root = 2130968587;
+			public const int toast_layout_error_root = 2130968586;
 			
 			// aapt resource value: 0x7f040003
 			public const int txtfield = 2130968579;

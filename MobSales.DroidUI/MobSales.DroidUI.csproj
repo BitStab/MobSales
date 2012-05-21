@@ -54,8 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ErrorDisplayer.cs" />
-    <Compile Include="View\Fragments\TitlesFragment.cs" />
-    <Compile Include="View\DashboardView.cs" />
+    <Compile Include="Views\Fragments\TitlesFragment.cs" />
+    <Compile Include="Views\DashboardView.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
