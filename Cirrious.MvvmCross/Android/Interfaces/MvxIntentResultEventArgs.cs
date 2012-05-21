@@ -25,6 +25,13 @@ namespace Cirrious.MvvmCross.Android.Interfaces
             RequestCode = requestCode;
         }
 
+        public MvxIntentResultEventArgs(int requestCode, int resultCode, Intent data)
+        {
+            Data = data;
+            ResultCode = (Result)resultCode;
+            RequestCode = requestCode;
+        }
+
         public int RequestCode { get; private set; }
         public Result ResultCode { get; private set; }
         public Intent Data { get; private set; }            
