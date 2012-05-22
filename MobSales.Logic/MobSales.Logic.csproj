@@ -63,6 +63,7 @@
     <Compile Include="Model\Fatt_Spedizione.cs" />
     <Compile Include="Model\Item.cs" />
     <Compile Include="StartApplicationObject.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\CustomersViewModel.cs" />
     <Compile Include="ViewModels\CustomerViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -118,6 +119,9 @@
       <Project>{7A6BE137-D0F1-46A1-AE5C-81FAEEDDDF02}</Project>
       <Name>Cirrious.MvvmCross.Android</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

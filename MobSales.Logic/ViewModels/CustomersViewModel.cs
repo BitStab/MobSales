@@ -12,7 +12,7 @@ using MobSales.Logic.Model;
 
 namespace MobSales.Logic.ViewModels
 {
-    public class CustomersViewModel:MvxViewModel, IMvxServiceConsumer<ICustomerService>, IMvxServiceConsumer<IErrorReporter>//, INotifyPropertyChanged
+    public class CustomersViewModel:BaseViewModel, IMvxServiceConsumer<ICustomerService>//, IMvxServiceConsumer<IErrorReporter>//, INotifyPropertyChanged
     {
         ICustomerService custService;
         IErrorReporter errorReport;

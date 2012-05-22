@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrious.MvvmCross.Android"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrious.MvvmCross.Binding.Android", "Cirrious.MvvmCross.Binding\Cirrious.MvvmCross.Binding.Android.csproj", "{47FD89C3-19DC-4BD2-9B6D-FB8363BE7EB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EOS.MvvmExtension", "EOS.MvvmExtension\EOS.MvvmExtension.csproj", "{5FD73677-E16F-45AA-8623-E5001704DB6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{47FD89C3-19DC-4BD2-9B6D-FB8363BE7EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47FD89C3-19DC-4BD2-9B6D-FB8363BE7EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47FD89C3-19DC-4BD2-9B6D-FB8363BE7EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD73677-E16F-45AA-8623-E5001704DB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD73677-E16F-45AA-8623-E5001704DB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD73677-E16F-45AA-8623-E5001704DB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD73677-E16F-45AA-8623-E5001704DB6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
